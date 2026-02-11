@@ -242,9 +242,9 @@ function renderInputs(question){
                 promptArea.innerText = "What are the coordinates of the vertices?";
                 inputArea.innerHTML = `
                 <label>Vertex 1 </label> ( <input id="vx1" class="form-control d-inline-block w-25 text-center"> ,
-                <input id="vy1"> )
+                <input id="vy1" class="form-control d-inline-block w-25 text-center"> )
                 <label>Vertex 2 </label> (<input id="vx2" class="form-control d-inline-block w-25 text-center">,
-                <input id="vy2">)
+                <input id="vy2" class="form-control d-inline-block w-25 text-center">)
             `;
     
         } else if (question.category == "Transverse Axis"){
